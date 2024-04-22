@@ -89,7 +89,8 @@ footer{
     background-color: #2f2f2f; 
     color: #fff; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 .padding-1rem{
     padding: 1rem;
@@ -130,4 +131,52 @@ footer{
     height: 10rem;
     background-color: white;
     border-radius: 50%;
+}
+.sub{
+    color: #676a70;
+    font-size: 9px;
+}
+
+.box-footer{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;    
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15rem;
+}
+
+.icone{
+    display: flex;
+    flex-direction: row;
+}
+
+.music-bar{
+    height: 2px;
+    width: 20rem;
+    background-color: #565656;
+}
+.livello{
+    height: 2px;
+    width: 20%;
+    background-color: white;
+}
+
+.sound-bar{
+    height: 2px;
+    width: 10rem;
+    background-color: #565656;
+}
+
+.padding-right{
+    padding-right: 2rem;
+}
+.align-center{
+    display: flex;
+    align-items: center;
+    
 }
