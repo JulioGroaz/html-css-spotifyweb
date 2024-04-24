@@ -14,11 +14,11 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    width:250px; 
+    width:200px; 
     height: calc(100vh - 70px); 
     background-color: #000; 
     color: #fff; 
-    padding: 2rem; 
+    padding: 0rem 2rem 2rem 1rem; 
     display: flex;
     justify-content: space-between;
     
@@ -35,7 +35,7 @@ header{
 
 main{
     position: fixed;
-    width: calc(100vw - 250px);
+    width: calc(100vw - 200px);
     height: calc(100vh - 140px);
     right: 0;
     display: flex;
@@ -47,7 +47,7 @@ main{
 }
 .header-main{
     position: fixed;
-    width: calc(100vw - 250px);
+    width: calc(100vw - 200px);
     height: 70px;
     top: 0;
     right: 0;
@@ -160,7 +160,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 15rem;
+    width: 12rem;
 }
 
 .icone{
@@ -263,6 +263,30 @@ img{
 }
 .weight-lighter{
     font-weight: lighter;
+}
+.dimensione-logo{
+    height: 40px;
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 135px;
+}
+#nome-canzone-foot{
+    color: white;
+}
+#sub-foot{
+    font-size: 9px;
+    font-weight: bold;
+}
+.minuti{
+    font-size: 9px;
+    font-weight: bold;
+    color: white;
+}
+.font-size-foot{
+    font-size: 13px;
 }
 @media screen and (max-width:768px)   {
     
